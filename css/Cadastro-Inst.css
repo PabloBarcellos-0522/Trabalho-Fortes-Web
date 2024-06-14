@@ -21,6 +21,10 @@ header {
 
 .logo img {
   height: 50px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 15px solid #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {

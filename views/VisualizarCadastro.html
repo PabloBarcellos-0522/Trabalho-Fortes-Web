@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visualizar Cadastro</title>
     <link rel="stylesheet" href="/css/VisualizarCadastro.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
   <body>
     <header>
-      <div class="logo">
-        <img src="logo-fortes.png" alt="Fortes Engenharia" />
+      <div class="logo" id="bola">
+        <img src="/images/FORTES_LOGOMARCA.png" alt="Fortes Engenharia" />
       </div>
       <nav>
         <ul>
@@ -24,13 +25,30 @@
       </nav>
     </header>
 
+    <section class="menu">
+      <div class="arrow"></div>
+      <nav class="vertical-menu">
+        <a href="Home-inst.html"><i class="ph ph-house"></i>Home</a>
+        <a href="VisualizarCadastro.html" id="menu-active"><i class="ph ph-file"></i>Cadastro</a>
+        <a href="documentacao-inst.html"><i class="ph ph-folder"></i>Documentação</a>
+        <a href="Monitoramento-Inst.html"><i class="ph ph-binoculars"></i>Monitoramento</a>
+        <a href="Configuracoes-inst.html"><i class="ph ph-gear"></i>Minha Conta</a>
+      </nav>
+    </section>
+
     <main>
       <section class="view-registration">
         <h1>Quais dados você quer visualizar / editar?</h1>
         <div class="button-container">
-          <button>INSTITUIÇÃO</button>
-          <button>RESP. LEGAL</button>
-          <button>RESP. TÉCNICO</button>
+          <a href="/views/Cadastro-Inst.html"
+            ><button onclick="instituicao()">INSTITUIÇÃO</button></a
+          >
+          <a href="/views/Cadastro-R_Legal.html"
+            ><button onclick="RESP_LEGAL()">RESP. LEGAL</button></a
+          >
+          <a href="/views/Cadastro-R_tecnico.html"
+            ><button onclick="RESP_TECNICO()">RESP. TÉCNICO</button></a
+          >
         </div>
       </section>
     </main>
@@ -38,5 +56,12 @@
     <footer>
       <p>Rodapé</p>
     </footer>
+    <script>
+      function instituicao(params) {}
+
+      function RESP_LEGAL(params) {}
+
+      function RESP_TECNICO(params) {}
+    </script>
   </body>
 </html>

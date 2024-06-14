@@ -151,3 +151,15 @@ footer button {
 footer button i {
   font-size: 18px;
 }
+
+#bola {
+  background-color: white;
+  border-radius: 100px;
+  width: 125px;
+  height: 125px;
+  margin-left: 10%;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

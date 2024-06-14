@@ -31,12 +31,86 @@ nav li {
   margin-left: 20px;
 }
 
-nav a {
+header a {
   text-decoration: none;
   color: #333;
 }
 
-.content {
+/*MENU INST*/
+.menu {
+  position: fixed;
+  left: -250px;
+  transition: 0.5s;
+  top: 160px;
+  background: none;
+}
+
+.menu:hover {
+  left: 10px;
+  transition: 0.5s;
+}
+
+#menu-active {
+  background: #14488c;
+  color: white;
+}
+
+.vertical-menu {
+  width: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vertical-menu a {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #000;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.vertical-menu a i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.vertical-menu a:hover {
+  text-decoration: underline;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  background-color: #3b82f6;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  right: -25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.arrow:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid white;
+  transform: rotate(225deg);
+  display: block;
+}
+/*ACABA AQUI*/
+
+s .content {
   padding: 20px;
   text-align: center;
 }

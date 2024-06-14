@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px;
 }
 
 header {
@@ -44,10 +44,9 @@ nav ul li a {
 }
 
 main {
-  background-color: #0056b3;
-  padding: 20px;
-  border-radius: 8px;
+  border-radius: 12px;
   color: white;
+  margin-top: 20px;
 }
 
 .content {
@@ -96,31 +95,7 @@ main {
   color: red;
 }
 
-#convocar-btn {
-  display: block;
-  margin: 20px 0;
-  padding: 10px 20px;
-  background-color: #0056b3;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 100%;
-}
-
 .instructions {
-  margin-top: 20px;
-  padding: 20px;
-  background-color: #e9f7f9;
-  border: 1px solid #c1e0e3;
-  border-radius: 8px;
-}
-
-.instructions p {
-  margin: 0;
-}
-
-.approval-message {
   background-color: #28a745;
   color: white;
   padding: 20px;
@@ -160,4 +135,16 @@ footer button {
 
 footer button i {
   font-size: 18px;
+}
+
+#bola {
+  background-color: white;
+  border-radius: 100px;
+  width: 125px;
+  height: 125px;
+  margin-left: 10%;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
