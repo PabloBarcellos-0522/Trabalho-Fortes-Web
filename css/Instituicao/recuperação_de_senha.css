@@ -10,6 +10,7 @@ body {
   background: url("blueprint.png") no-repeat center center fixed;
   background-size: cover;
   font-family: "Ubuntu", sans-serif;
+  background-image: url(/images/Blueprint2-1_1.jpg);
 }
 
 .recovery-container {
