@@ -172,8 +172,8 @@ main {
 }
 
 .upload button {
-  background-color: #fff;
-  color: #000;
+  background-color: #14488c;
+  color: #fff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -181,7 +181,7 @@ main {
 }
 
 .upload button:hover {
-  background-color: #ddd;
+  background-color: #143b6e;
 }
 
 #bola {

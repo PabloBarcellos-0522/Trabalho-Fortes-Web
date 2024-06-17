@@ -126,6 +126,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .document-list {
   list-style: none;
   padding: 0;
