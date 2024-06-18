@@ -10,7 +10,7 @@ body {
   background: url("blueprint.png") no-repeat center center fixed;
   background-size: cover;
   font-family: "Ubuntu", sans-serif;
-  background-image: url(/images/Blueprint2-1_1.jpg);
+  background-image: url(../../images/blueprint-4056027_1920.png);
 }
 
 .recovery-container {
@@ -25,7 +25,7 @@ body {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
   text-align: center;
   width: 300px;
 }
